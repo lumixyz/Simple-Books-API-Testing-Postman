@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "e7cb1803-fc82-4939-9c52-2774a248eebb",
 		"name": "Simple-Books-Postman-API-Testing",
-		"description": "A collection of API tests using Valentin Despa's \"Simple Books\" AP, exploring Postman's test functions.",
+		"description": "A collection of API automation tests using Valentin Despa's \"Simple Books\" API, exploring Postman's test functions.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -44,7 +44,7 @@
 							}
 						}
 					],
-					"_postman_id": "aa6f4b91-fd1e-47c5-93cc-868251f2dd99",
+					"id": "aa6f4b91-fd1e-47c5-93cc-868251f2dd99",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -56,7 +56,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "4a453395-782a-4dcd-952a-15dafc45d4ce"
+			"id": "4a453395-782a-4dcd-952a-15dafc45d4ce"
 		},
 		{
 			"name": "Register API Client",
@@ -109,7 +109,7 @@
 							}
 						}
 					],
-					"_postman_id": "0807e637-843f-4a15-b60c-103cc1b2c097",
+					"id": "0807e637-843f-4a15-b60c-103cc1b2c097",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -159,7 +159,7 @@
 							}
 						}
 					],
-					"_postman_id": "09ef072e-b3e4-4bb8-9e99-9d8a6c073aa9",
+					"id": "09ef072e-b3e4-4bb8-9e99-9d8a6c073aa9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -209,7 +209,7 @@
 							}
 						}
 					],
-					"_postman_id": "68abcfdf-bd3a-48b2-ac1c-ae5ea012c9e3",
+					"id": "68abcfdf-bd3a-48b2-ac1c-ae5ea012c9e3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -259,7 +259,7 @@
 							}
 						}
 					],
-					"_postman_id": "0e3ea6bc-893f-4cd2-91c5-e2e9804d29ee",
+					"id": "0e3ea6bc-893f-4cd2-91c5-e2e9804d29ee",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -342,7 +342,7 @@
 							}
 						}
 					],
-					"_postman_id": "fc558a1b-61fc-4163-aa0f-295743c01a9a",
+					"id": "fc558a1b-61fc-4163-aa0f-295743c01a9a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -423,7 +423,7 @@
 							}
 						}
 					],
-					"_postman_id": "5b8224dd-9427-4219-9cbc-80efb021b2ae",
+					"id": "5b8224dd-9427-4219-9cbc-80efb021b2ae",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -481,7 +481,7 @@
 							}
 						}
 					],
-					"_postman_id": "c771289f-ea72-42b4-96a1-43ef2c698d32",
+					"id": "c771289f-ea72-42b4-96a1-43ef2c698d32",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -502,7 +502,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "f359da8a-8648-4def-8f3b-1d66f5c7e941"
+			"id": "f359da8a-8648-4def-8f3b-1d66f5c7e941"
 		},
 		{
 			"name": "Get Book(s)",
@@ -561,7 +561,7 @@
 							}
 						}
 					],
-					"_postman_id": "2fdf4a95-68f9-4ca7-898a-3a40817a638a",
+					"id": "2fdf4a95-68f9-4ca7-898a-3a40817a638a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -662,7 +662,7 @@
 							}
 						}
 					],
-					"_postman_id": "a6faab6d-eca4-461a-8991-1f53c68414a9",
+					"id": "a6faab6d-eca4-461a-8991-1f53c68414a9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -759,7 +759,7 @@
 							}
 						}
 					],
-					"_postman_id": "45d57e31-4a1c-4269-a912-727bde65d53a",
+					"id": "45d57e31-4a1c-4269-a912-727bde65d53a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -847,7 +847,7 @@
 							}
 						}
 					],
-					"_postman_id": "68b0a299-298b-46e8-b5b9-3803bb2de5fa",
+					"id": "68b0a299-298b-46e8-b5b9-3803bb2de5fa",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -866,8 +866,7 @@
 							"variable": [
 								{
 									"key": "bookId",
-									"value": "{{bookId}}",
-									"type": "string"
+									"value": "{{bookId}}"
 								}
 							]
 						}
@@ -932,7 +931,7 @@
 					]
 				}
 			],
-			"_postman_id": "0e708647-4755-45b7-8308-c96eac9a68b0"
+			"id": "0e708647-4755-45b7-8308-c96eac9a68b0"
 		},
 		{
 			"name": "Order Book",
@@ -990,7 +989,7 @@
 							}
 						}
 					],
-					"_postman_id": "63ea8c99-fb3f-4700-b0bf-03e6b28d1987",
+					"id": "63ea8c99-fb3f-4700-b0bf-03e6b28d1987",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1069,7 +1068,7 @@
 							}
 						}
 					],
-					"_postman_id": "fa488c47-766d-4f0e-ac88-2b821e440746",
+					"id": "fa488c47-766d-4f0e-ac88-2b821e440746",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1148,7 +1147,7 @@
 							}
 						}
 					],
-					"_postman_id": "892dd484-28ce-41b7-92d2-e20f45dff16a",
+					"id": "892dd484-28ce-41b7-92d2-e20f45dff16a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1224,7 +1223,7 @@
 							}
 						}
 					],
-					"_postman_id": "2e140b5a-05f2-44fc-8662-fe639243b7d5",
+					"id": "2e140b5a-05f2-44fc-8662-fe639243b7d5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1251,7 +1250,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "0622cc19-44a5-4229-8955-6f187ce81b93"
+			"id": "0622cc19-44a5-4229-8955-6f187ce81b93"
 		},
 		{
 			"name": "Get Book Order(s)",
@@ -1304,7 +1303,7 @@
 							}
 						}
 					],
-					"_postman_id": "08e41960-6b78-4771-b3b6-23a7250988d6",
+					"id": "08e41960-6b78-4771-b3b6-23a7250988d6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1338,8 +1337,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "{{orderId}}",
-									"type": "string"
+									"value": "{{orderId}}"
 								}
 							]
 						}
@@ -1403,7 +1401,7 @@
 							}
 						}
 					],
-					"_postman_id": "4be2c2bd-f81a-4f52-b912-1688400f24b5",
+					"id": "4be2c2bd-f81a-4f52-b912-1688400f24b5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1430,7 +1428,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "d6c8c9a6-fc1c-40c3-9ce9-bc8d6767a7cb"
+			"id": "d6c8c9a6-fc1c-40c3-9ce9-bc8d6767a7cb"
 		},
 		{
 			"name": "Update Book Order",
@@ -1514,7 +1512,7 @@
 							}
 						}
 					],
-					"_postman_id": "4d007c0f-03c9-4410-a4f3-cb1ba20eb4f6",
+					"id": "4d007c0f-03c9-4410-a4f3-cb1ba20eb4f6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1548,8 +1546,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "{{patchOrderId}}",
-									"type": "string"
+									"value": "{{patchOrderId}}"
 								}
 							]
 						}
@@ -1557,7 +1554,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "a15918a0-072a-47fb-b06c-c510231495f2"
+			"id": "a15918a0-072a-47fb-b06c-c510231495f2"
 		},
 		{
 			"name": "Delete Book Order",
@@ -1639,7 +1636,7 @@
 							}
 						}
 					],
-					"_postman_id": "9ea59075-074e-4904-8f95-87480f62f382",
+					"id": "9ea59075-074e-4904-8f95-87480f62f382",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1673,8 +1670,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "{{delOrderId}}",
-									"type": "string"
+									"value": "{{delOrderId}}"
 								}
 							]
 						}
@@ -1682,7 +1678,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "c7fd5c6f-510c-4d00-81cf-7ae6d25ed566"
+			"id": "c7fd5c6f-510c-4d00-81cf-7ae6d25ed566"
 		}
 	],
 	"auth": {
@@ -1716,94 +1712,80 @@
 	],
 	"variable": [
 		{
-			"id": "5f164d7c-717a-4188-9feb-0535c07b26ce",
+			"id": "55831cf6-70e6-4de3-b18f-caf9d692bf3e",
 			"key": "SBbaseUrl",
-			"value": "https://simple-books-api.glitch.me",
-			"type": "string"
+			"value": "https://simple-books-api.glitch.me"
 		},
 		{
-			"id": "e5f5396d-6cc3-450c-b0a2-c850f1ae2647",
+			"id": "cd112b7e-02a7-4ab0-bc21-b152ac2f691c",
 			"key": "accessToken",
 			"value": "---",
 			"type": "string"
 		},
 		{
-			"id": "817abca4-17e7-4558-b2da-9b83a86815b2",
+			"id": "4b6bbcda-7fe8-4010-9519-3102901a9e43",
 			"key": "existingName",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "519ad341-ef09-492b-a1a3-45bcfce923cb",
+			"id": "11eee7b2-2bda-4ff5-a298-19efebb1d89a",
 			"key": "existingEmail",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "c099c8de-2581-40db-ba6f-afa77075cc3b",
+			"id": "8218e9ff-7243-4e54-b8ba-742ec8137b55",
 			"key": "customerName",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "29468956-96d9-41c1-8383-a62b4c94b6d6",
+			"id": "9ae9b022-099e-4455-81f6-79aee2b47a21",
 			"key": "customerEmail",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "44e9f5ac-dc81-4599-bfbf-8e9a9f39af5a",
+			"id": "e8453dc6-15f9-4ffd-9990-d61372cb383f",
 			"key": "bookId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "c587154a-0e27-4cf3-b841-aac9cfb48dfc",
+			"id": "dbb7f889-bbf7-4f7a-92d6-931a0c5dca73",
 			"key": "bookLimit",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "6574c5f3-51a0-484e-b859-1aa6579ac62a",
+			"id": "2f1a4a52-1a0c-4f98-a474-b1c7ea968832",
 			"key": "bookType",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "c1df3b12-df66-45ae-8290-c0d460d615f2",
+			"id": "38309a94-1b3f-49a9-b9d0-7a31f5a1b79e",
 			"key": "avaiBookId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "8eea739a-f7a6-4ba7-b31e-f74cdffe2926",
+			"id": "0dba0e64-0606-44ef-af83-fadd7dda90aa",
 			"key": "orderId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "e755c25a-6753-40df-a935-ca28961a5b07",
+			"id": "a6599134-6617-4bb7-b113-6cb8892c5cc4",
 			"key": "unavaiBookId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "c9aa1767-79ea-4f6e-911a-e2c4bc8fbf4e",
+			"id": "07a919ba-9045-4f43-b62f-67e5b0f38d32",
 			"key": "nameUpdate",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "cd1d6172-9b7d-45dd-94ff-b229875ce13c",
+			"id": "082b3d62-369a-4596-af92-bd3e69238fb1",
 			"key": "patchOrderId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "f8e49760-2161-4b66-94fd-cf6eadc693aa",
+			"id": "17740ad7-8c37-4003-b41a-12ed262f8a23",
 			"key": "delOrderId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
